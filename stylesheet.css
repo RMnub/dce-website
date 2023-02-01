@@ -1,0 +1,79 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family:serif;
+}
+header{
+    background-image:linear-gradient(rgb(0,0,0,0.5),rgb(0,0,0,0.5)), url("bg\ edu4.webp");
+    background-position:center;
+    background-size:cover;
+height: 110vh;
+    background-position: center;
+}
+ul{
+float:right;
+list-style-type:none;
+margin-top:25px;
+}
+ul li{ 
+       display: inline-block;
+}
+ul li a{
+    text-decoration:aliceblue ;
+    color: #fff;
+    padding: 5px 20px;
+    border: 1px solid #fff transparent;
+    transition:o.6s ease;
+
+}
+ul li a:hover{
+background-color: #fff;
+color: black;
+}
+ul li a.active{
+    background-color: #fff;
+    color: black;  
+}
+.logo img{
+    float: left;
+    width: 150px;
+    height:auto;
+}
+
+.menu{
+    max-width: 1200px;
+   margin: auto;
+}
+.title{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%,-50%);
+}
+.title h1{
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+   font-style:normal;
+ font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ 
+}
+.button {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform:translate(-50%,-50%);
+}
+    
+.but{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: 1px solid#fff;
+    padding: 10px 30px;
+    color: #fff;
+    text-decoration: none;
+    transition: 0.6s ease;
+}
+.but:hover {
+    background-color:#fff;
+    color: black;
+}
